@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+h1 {
+  color: #003366;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #003366;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #003366;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #002147;
+}
+
+#infoMusico {
+  margin-top: 20px;
+}
+
+.escala-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.escala-item h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Adiciona borda ao redor dos músicos selecionados */
+.musico-selecionado {
+  border: 2px solid #009926; /* Cor da borda amarela */
+  border-radius: 4px; /* Borda arredondada */
+  background-color: #4dff4d;
+}
+
+
+/* Adiciona estilo para músicos com (Mic Azul) */
+.musico-mic-azul {
+  background-color: #58a1ee;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+
+/* Adiciona estilo para músicos com (Repertório) */
+.musico-repertorio {
+  font-style: italic; /* Define o estilo itálico para os músicos com (Repertório) */
+  border: 2px solid #ffc800;
+  border-radius: 4px;
+  background-color: #fbf183;
+}

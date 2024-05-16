@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escala de Músicos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Escala de Músicos</h1>
+  <label for="musico">Selecione o integrante:</label>
+  <select id="musico">
+      <option value="">Selecione...</option>
+      <option value="Abraão">Abraão</option>
+      <option value="Anthony">Anthony</option>
+      <option value="Davi">Davi</option>
+      <option value="Diego">Diego</option>
+      <option value="Eduarda">Eduarda</option>
+      <option value="Eliseu">Eliseu</option>
+      <option value="Eneias">Eneias</option>
+      <option value="Felipe Raup">Felipe Raup</option>
+      <option value="Gabriel Fernandes">Gabriel Fernandes</option>
+      <option value="Gabriel Figueiredo">Gabriel Figueiredo</option>
+      <option value="Gabriel Lima">Gabriel Lima</option>
+      <option value="Ismael">Ismael</option>
+      <option value="Kelly">Kelly</option>
+      <option value="Kauane">Kauane</option>
+      <option value="Kauã">Kauã</option>
+      <option value="Lidya">Lidya</option>
+      <option value="Nicolas">Nicolas</option>
+      <option value="Pedro">Pedro</option>
+      <option value="Silas">Silas</option>
+      <option value="Tielen">Tielen</option>
+  </select>
+
+
+    <label for="dia">Selecione o dia da semana:</label>
+    <select id="dia">
+        <option value="sabados">Sábados</option>
+        <option value="domingos">Domingos</option>
+        <option value="quintas">Quintas-Feiras</option>
+        <option value="todos">Todos</option>
+    </select>
+
+    <button onclick="buscarEscala()">Buscar</button>
+
+    <div id="infoMusico"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
